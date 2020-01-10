@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = 'RicardoMoya'
+__author__ = 'Who ?'
 
 import pandas as pd
 
@@ -7,8 +7,8 @@ import pandas as pd
 spanishPlayers = pd.Series(
     ['Casillas', 'Ramos', 'Pique', 'Puyol', 'Capdevila', 'Xabi Alonso', 'Busquets', 'Xavi Hernandez', 'Pedrito',
      'Iniesta', 'Villa'], index=[1, 15, 3, 5, 11, 14, 16, 8, 18, 6, 7])
-print "Spanish Football Players: \n%s" % spanishPlayers
-print '\n==================================================================\n'
+print("Spanish Football Players: \n%s" % spanishPlayers)
+print('\n==================================================================\n')
 
 
 # series through dictionary
@@ -17,8 +17,8 @@ dictPlayers = {1: 'Casillas', 15: 'Ramos', 3: 'Pique', 5: 'Puyol', 11: 'Capdevil
 players2series = pd.Series(dictPlayers)
 # Insert new player
 players2series[10] = 'Cesc'
-print "Spanish Football Players through dictionary: \n%s" % players2series
-print '\n==================================================================\n'
+print("Spanish Football Players through dictionary: \n%s" % players2series)
+print('\n==================================================================\n')
 
 
 # DataFrame: data structure similar to excel or SQL table
@@ -34,4 +34,4 @@ spanishPlayersDF = pd.DataFrame(
 )
 # Insert new player
 spanishPlayersDF.loc[10] = ['Cesc', 'Forward', 'Arsenal']
-print "Spanish Football Players DataFrame: \n%s" % spanishPlayersDF
+print("Spanish Football Players DataFrame: \n%s" % spanishPlayersDF)
