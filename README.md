@@ -1,15 +1,19 @@
-In this project is going to make an example with pandas' library in Python.
+# Pandas example
 
-Will see the differences between Series and DataFrame:
+This project is an usage example of `pandas`' library in Python.
 
-  - **Series**: Is a unidimensional array with indexation. Similar to dictionary.
-  - **DataFrame**: Data structure similar to excel or SQL table.
-  
+We will see the differences between `Series` and `DataFrame`:
 
-For this example i used the "MovieLens" data set that contains information of users, films and ratings. 
+  - `Series`: Is a unidimensional array with indexation. Similar to dictionary.
+  - `DataFrame`: Data structure similar to Excel or SQL table.
 
-## Prerequisites
-Is necessary to install next libraries (with pip):
+For this example, I used the "MovieLens" data set that contains information of users, films and ratings.
+
+
+## Requirements
+
+`pandas` and `numpy` libraries are necessary. You can install them with `pip`:
+
 ```bash
 $ pip install pandas
 $ pip install numpy
