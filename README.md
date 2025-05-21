@@ -1,4 +1,4 @@
-# Pandas example
+# Pandas example ----
 
 This project is an usage example of `pandas`' library in Python.
 
